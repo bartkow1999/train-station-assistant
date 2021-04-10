@@ -8,7 +8,7 @@ The purpose of the application is to improve the management of the railway stati
 * [Screenshots](#examples)
 
 ## General info
-This application uses Oracle DB. It was made in **January 2021**.
+This application communicates with Oracle DB. It was made in **January 2021**.
 
 ## Technologies
 * C#
@@ -22,15 +22,15 @@ https://github.com/bartosztkowalski/TrainStationAssistant.git
 ```
 It`s preferred to open in Visual Studio 2019.
 
+To connect with database you must fill ConnectionString in ```App.config``` (all 'xxx' parts of string).
+It is located in ./station-app folder. 
+
+```
+<add name="OracleDB" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=xxx)(HOST=xxx)(PORT=xxx))(CONNECT_DATA=(SERVICE_NAME=xxx)));User Id=xxx;Password=xxx;" providerName="Oracle.ManagedDataAccess.Client"/>
+```
+
 ## Screenshots
-Main menu:
 ![Main menu](./examples/00.png)
-
-Timetable:
 ![Timetable](./examples/01.png)
-
-Statistics:
 ![Statistics](./examples/02.png)
-
-Help schedule:
 ![Help schedule](./examples/03.png)
