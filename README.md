@@ -11,9 +11,9 @@ The purpose of the application is to improve the management of the railway stati
 This application uses Oracle DB. It was made in **January 2021**.
 
 ## Technologies
-C#
-OracleDB
-Dapper (Object-Relational Mapping)
+* C#
+* OracleDB
+* Dapper (Object-Relational Mapping)
 
 ## Setup
 Clone this repository using git bash:
@@ -25,9 +25,12 @@ It`s preferred to open in Visual Studio 2019.
 ## Screenshots
 Main menu:
 ![Main menu](./examples/00.png)
+
 Timetable:
 ![Timetable](./examples/01.png)
+
 Statistics:
 ![Statistics](./examples/02.png)
+
 Help schedule:
 ![Help schedule](./examples/03.png)
